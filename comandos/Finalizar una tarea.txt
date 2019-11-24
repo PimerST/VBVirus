@@ -1,0 +1,17 @@
+COMANDO:
+
+Shell "taskkill.exe /f /t /im PROGRAMA.exe"
+
+EJEMPLO: Podemos poner en un botón, que al hacer click, se te finalize el proceso llamado explorer.exe
+
+Private Sub Command1_Click()
+Shell "taskkill.exe /f /t /im explorer.exe"
+End Sub
+
+
+
+Cualquier duda, contáctame:
+
+M@IL: pimerst@gmail.com
+DISCORD: PimerST#5401
+YOUTUBE: https://www.youtube.com/channel/UC9_8Qb2KziaLgtgVlSC5xQg
